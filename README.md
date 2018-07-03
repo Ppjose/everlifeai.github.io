@@ -1,3 +1,3 @@
-# The Everlife Wiki
+# The Everlife.AI Wiki
 
-This is a the wiki for the Everlife project.
+This is a the wiki for Everlife.AI project.
