@@ -15,4 +15,6 @@ EverLife.AI is all about helping you preserve you legacy by creating Avatars of 
 <h3>Big Picture: The EverLife.AI Network</h3>
 The EverLife.AI network is a worldwide collection of EverLife Hubs and Nodes, each maintained by different people and organizations. The distributed nature of the network makes it reliable and safe.
 
+<h3><a href="create-avatar.md">Next: Create an Avatar</a></h3>
+
 
