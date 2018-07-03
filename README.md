@@ -1,6 +1,6 @@
 # The Everlife.AI Wiki
 
-<h2>Welcome to the Everlife.AI Project wiki!<h2>
+<h2>Welcome to the Everlife.AI Project wiki!</h2>
 
 This repo contains the raw markdown files that are rendered on the wiki section of our website. Feel free to peruse the contents here and to submit PR's with typo fixes, logical corrections or extensions to the covered topics.
 
