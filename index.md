@@ -1,4 +1,4 @@
-# The Everlife Project
+# Welcome to the Everlife.AI Project Wiki
 
-This wiki will hold [documentation](guides.md), [tutorials](tutorials.md), [faq's](faq.md) and so on for the EverLife.AI project.
+This wiki will hold [documentation](guides), [tutorials](tutorials.md), [faq's](faq.md) and so on for the EverLife.AI project.
 
