@@ -12,5 +12,5 @@ Any time you ask your Avatar by typing /get_key_pair, it will share your public 
 It is very important to keep your Key Pair safe. This is essential to respawn your Avatar on another node for some reason.<BR><BR>
 
 
-<a href="avatar-commands.md">Next: Avatar Commands</a>
+<h3><a href="avatar-commands.md">Next: Avatar Commands</a></h3>
 
