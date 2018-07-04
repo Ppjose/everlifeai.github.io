@@ -1,5 +1,5 @@
 <h2>Create Avatar</h2>
-You can <a href="https://t.me/everlife_ai_bot">create an Avatar for yourself via Telegram</a> <BR>
+<h3>You can <a href="https://t.me/everlife_ai_bot">create an Avatar for yourself via Telegram</a> </h3>
   
 When you visit the link above and click Start button in Telegram, your Avatar gets created and then you can start chatting with it.
 
