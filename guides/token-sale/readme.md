@@ -147,7 +147,7 @@ Direct private investor interactions.
 
 Let `Z` denote the amount of EVER tokens sold, and distributed from `EA` during the Private Sale. Investor XLM funds are sent to `EA`.
 
-_Note:_ Once EVER is sold from `EA` to Private Sale contributors their trustline authorisation will be revoked, to prevent any pre Token Sale trading taking place.
+_Note:_ Once EVER is sold from `EA` to Private Sale contributors their trustline authorization will be revoked, to prevent any pre Token Sale trading taking place.
 
 ---
 
@@ -344,7 +344,7 @@ The Token Sale is concluded by submission of the `CONCLUSIONtx` transaction (cre
 
 The `CONCLUSIONtx` transaction has successfully transfers the amount of XLM as defined for soft cap and then merges `EA` with `DA` which now holds all the contributed funds and is controlled solely by EverLife.AI.
 
-We now need to remove the requirement for authorisation to use the EVER asset, to allow trading. At the same time we want to ensure that no more EVER can be created.
+We now need to remove the requirement for authorisation to use the EVER asset, to allow trading. At the same time we want to ensure that `GA` can no longer revoke authorization on its own.
 
 1. The release transaction `RELEASEtx` is submitted to enable free trading of EVER and prevent any further asset creation:
   - Source account: `GA`
@@ -353,12 +353,8 @@ We now need to remove the requirement for authorisation to use the EVER asset, t
   - Operations:
     - Set flag: `AUTHORIZATION_REQUIRED` = false
     - Set flag: `AUTHORIZATION_REVOCABLE` = false
-    - Remove signers: `TA1` ... `TA10`.
-    - Update master weight to 1.
-    - Update low threshold to 1.
-    - Update medium and high thresholds to 2.
 
-_Note:_ Once submitted and applied `RELEASEtx` locks the `GA` account from further operations (medium or high).
+_Note:_ Once submitted and applied `RELEASEtx` opens up trading using the EVER token and the `GA` account can no longer give or revoke the authorization of trustlines, access the burnt EVER or issue more EVER, without cooperation of four trustors.
 
 The contributor dashboard will now present the option of claiming the EVER deposited in the respective `CA2` accounts, by submitting the `CA_CLAIMtx` which returns full control of that account to each contributor.
 
