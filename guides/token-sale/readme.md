@@ -334,7 +334,7 @@ First any unsold EVER tokens need to be sent to the burn account `BA` and the tr
     - Send any remaining EVER to `BA`
     - Remove trustline for EVER to `GA`
 
-_Note:_ The `BA` account is used for accounting purposes. The burnt EVER will then be then be sent back to `GA` where it will reduce the total supply as well.
+_Note:_ The `BA` account is used for accounting purposes. The burnt amount EVER will then be then be sent back to `GA` where will stay out of circulation and therefore reduce the total supply.
 
 ### Conclusion
 
