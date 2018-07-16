@@ -370,6 +370,6 @@ This causes the Contributor specific pre signed refund transactions `CA_REFUNDtx
 
 _Note:_ Since the Contributor is encouraged to store her/his own copy of the refund transactions they could be submitted independently of the dashboard as well.
 
-## 8. Bonus Distribution (`time:D+30`)
+## 8. Bonus Distribution
 
 Bonuses in EVER are now distributed from `RA` to `CA2` accounts according to the rules defined in the EverLife.AI white paper. Bonuses are assigned as compensation for USD to XLM fluctuations during the Token Sale period as well as an extra incentive for early bird contributions.
