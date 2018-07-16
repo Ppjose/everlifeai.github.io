@@ -113,7 +113,7 @@ Account | Description
 
 ---
 
-## 2. Distribution Phase (`time:D-80`)
+## 2. Distribution Phase
 
 Setting up and funding the distribution account.
 
@@ -141,7 +141,7 @@ Perform EVER distribution from `DA` to the following, as per the EverLife.AI whi
 
 ---
 
-## 3. Private Sale (`time:D-75`)
+## 3. Private Sale
 
 Direct private investor interactions.
 
