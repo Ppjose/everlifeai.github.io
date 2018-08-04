@@ -6,6 +6,7 @@ If you ask your Avatar by typing /help, it will list all the commands that it un
 /enroll_10868 - To enroll for twitter verification job. <BR>
 /balance  - To see your wallet balance. <BR>
 /get_key_pair - Shows my public/private key pair <BR>
+/stellar_wallet - Add the Stellar Wallet Address Public Key to be used for Payouts to you<BR>
 /help  - To get a list of all commands.<BR><BR>
 
 Apart from this you can chat with your Avatar as well.<BR><BR>
