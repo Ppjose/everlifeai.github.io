@@ -1,15 +1,10 @@
-# The Everlife.AI Wiki
+# everlifeai.github.io
 
-<h2>Welcome to the Everlife.AI Project wiki!</h2>
+## Welcome to the Everlife.AI Project wiki!
 
-This repo contains the raw markdown files that are rendered on the wiki section of our website. Feel free to peruse the contents here and to submit PR's with typo fixes, logical corrections or extensions to the covered topics.
+This repository hosts the EverLife.AI project Wiki. 
 
-<h2>Structure</h2>
-All wiki articles need to be within a top-level directory
-Nested directories are disallowed
-Article file names should be the title of the article with dashes (-) instead of spaces. Capitalization will be respected.
+Please visit [https://everlifeai.github.io](https://everlifeai.github.io) to view the full Wiki including navigation etc.
 
-<h2>Attribution</h2>
-Did you run into an issue while developing a skill on EverLife.AI? Share what you learned by writing an article for our wiki and we'll add your name as the author and will even link to the project you're working on. Do good and get exposure, it's a win-win for the community.
-
+This repo contains the raw markdown files that are rendered on the wiki section of our [website](https://everlifeai.github.io). Feel free to peruse the contents here and to submit PR's with typo fixes, logical corrections or extensions to the covered topics. For more information check out our [contribution guide](docs/developer-resources/contribution/contribution.md).
 
