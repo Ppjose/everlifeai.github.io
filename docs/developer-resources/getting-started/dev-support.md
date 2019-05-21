@@ -2,7 +2,17 @@
 
 ## Checking the logs
 
+All log files are written to the `logs/` directory, relative to your `ELIFE_HOME` environment variable. Each of the core avatar services have their own log file. To view the logs in real time check out this tip about using [PM2 to monitor logs](dev-tricks.md#using-pm2-to-monitor-the-logs).
+
 ## Reporting an issue to the team
+
+When reporting an issue, be sure to include the following information:
+
+1. Your OS (Windows, Linux or MacOS), and version.
+2. What version of the avatar software you are running.
+3. The issue you are experiencing.
+4. Any relevant information from the logs. It can be a little tricky to know what is relevant or not, typically errors or warnings are a good bet. Please [get in touch](../../contact.md) if you are not sure on what to include.
+
 
 ### EverLife.AI Hosted Avatar and Avatar Node
 
