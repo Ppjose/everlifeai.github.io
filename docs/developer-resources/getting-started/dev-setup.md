@@ -10,7 +10,8 @@ Development of the avatar node or skills for the avatar can be done using any ID
 To set up a development environment the following software needs to be installed on you machine, before you start the setup:
 
 1. Node.js - JavaScript server runtime. 
-2. Yarn - JavaScript package manager.
+2. [Yarn](https://yarnpkg.com/) - JavaScript package manager.
+3. [Python 2.7](https://www.python.org/)
 
 ## Setup
 

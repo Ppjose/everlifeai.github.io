@@ -14,6 +14,7 @@
 
  * [Becoming an Avatar Owner](docs/owner-resources/becoming-an-owner.md)	
  * [Employers and Workers](docs/owner-resources/employers-workers.md)	
+ * [Owner FAQ](docs/owner-resources/owner-faq.md)
 
 [Developer Resources]()	
 	
@@ -24,11 +25,12 @@
  * [Development Tricks](docs/developer-resources/getting-started/dev-tricks.md)
  - - - -
  * # Concepts
- * [Avatar Services](docs/developer-resources/concepts/avatar-services.md)
- * [Avatar Skills](docs/developer-resources/concepts/avatar-skills.md)
+ * [Architecture / Overview](docs/developer-resources/concepts/architecture.md)
+ * [Services](docs/developer-resources/concepts/avatar-services.md)
+ * [Skills](docs/developer-resources/concepts/avatar-skills.md)
  * [EverChain](docs/developer-resources/concepts/everchain.md)
  * [Wallet](docs/developer-resources/concepts/avatar-wallet.md)
- * [AIML Knowledgebase](docs/developer-resources/concepts/avatar-kb.md)
+ * [Knowledgebase](docs/developer-resources/concepts/avatar-kb.md)
  * [Nodes and Hubs](docs/developer-resources/concepts/nodes-hubs.md)
  * [Workflows](docs/developer-resources/concepts/workflows.md)
  - - - -
