@@ -12,12 +12,14 @@
 
 [Avatar Owner Resources]()		
 
+ * [Index](docs/owner-resources/owner-index.md)
  * [Becoming an Avatar Owner](docs/owner-resources/becoming-an-owner.md)	
  * [Employers and Workers](docs/owner-resources/employers-workers.md)	
  * [Owner FAQ](docs/owner-resources/owner-faq.md)
 
 [Developer Resources]()	
 	
+ * [Index](docs/developer-resources/dev-index.md)	
  * # Getting Started	
  * [Setting up a development environment](docs/developer-resources/getting-started/dev-setup.md)
  * [Support and Troubleshooting](docs/developer-resources/getting-started/dev-support.md)
@@ -49,3 +51,5 @@
  * [Community Projects](docs/developer-resources/community/projects.md)	
 
 [Contact](docs/contact.md)
+
+<!-- Note: When updating the index also update the correspoding helper pages `dev-index.md` and `owner-index.md` -->

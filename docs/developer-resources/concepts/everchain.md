@@ -1,6 +1,6 @@
 # EverChain
 
-The EverChain is the Avatars personal block chain. It holds the entire history of the avatar and the important interactions it has with users and other avatars. To ensure consistency each message in the chain is signed and linked together with the existing messages. Messages on the chain can be public or private. Private messages are encrypted with one or more keys.
+![](../../images/chain_320.jpg) The EverChain is the Avatars personal block chain. It holds the entire history of the avatar and the important interactions it has with users and other avatars. To ensure consistency each message in the chain is signed and linked together with the existing messages. Messages on the chain can be public or private. Private messages are encrypted with one or more keys.
 
 To protect the avatar the EverChains are replicated between avatars and hubs to ensure that a backup copy is available, should the primary be destroyed or lost. 
  
@@ -215,6 +215,8 @@ These messages are stored encrypted to ensure the user's privacy.
 
 Note: Not yet implemented.
 
+
+_Photo by Joey Kuber on Pexels._
 
 - - - -
 [Suggest an edit for this page](https://github.com/everlifeai/everlifeai.github.io/edit/master/docs/developer-resources/concepts/everchain.md)
