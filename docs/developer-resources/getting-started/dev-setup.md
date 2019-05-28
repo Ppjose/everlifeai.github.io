@@ -6,12 +6,10 @@ This document assumes that you have some experience as a server side JavaScript 
 
 Development of the avatar node or skills for the avatar can be done using any IDE or text editor that can handle JavaScript development. 
 
-
 To set up a development environment the following software needs to be installed on you machine, before you start the setup:
 
-1. Node.js - JavaScript server runtime. 
-2. [Yarn](https://yarnpkg.com/) - JavaScript package manager.
-3. [Python 2.7](https://www.python.org/)
+1. [Node.js LTS version](https://nodejs.org) - JavaScript server runtime LTS (currently v10.15)
+2. [Python 2.7](https://www.python.org/)
 
 ## Setup
 

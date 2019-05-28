@@ -22,6 +22,7 @@
 
 ## Developer Guides	
 
+ * [Coding a simple skill](dev-guides/coding-a-skill/coding-a-skill.md)
  * [Running on a Raspberry Pi](dev-guides/guide-raspberrypi.md)
  - - - -
 
