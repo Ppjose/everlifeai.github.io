@@ -36,5 +36,11 @@ To cancel "watching" you use the following command:
 
 Since skills and services are developed using JavaScript and the node.js runtime any IDE with support for node.js debugging should be able to handle breakpoints, watches etc. If you have specific information and tips for your IDE, [let us know](../../contact.md) and we will include that information here.
 
+## Setting up multiple local instances
+
+Sometimes it can be useful to have several avatar data instances (identity, wallet, everchain etc.) on the same machine (sharing the same avatar installation). 
+
+To distinguish between data instances you can pass either `--node-num <num>` or set the environment variable `ELIFE_NODE_NUM=<num>` to select which instance should be started by the `run-*` script. 
+
 - - - -
 [Suggest an edit for this page](https://github.com/everlifeai/everlifeai.github.io/edit/master/docs/developer-resources/getting-started/dev-tricks.md)

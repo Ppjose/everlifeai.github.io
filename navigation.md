@@ -37,6 +37,7 @@
  * [Workflows](docs/developer-resources/concepts/workflows.md)
  - - - -
  * # Developer Guides	
+ * [Coding a simple skill](docs/developer-resources/dev-guides/coding-a-skill/coding-a-skill.md)
  * [Running on a Raspberry Pi](docs/developer-resources/dev-guides/guide-raspberrypi.md)
  - - - -
  * # Reference	
