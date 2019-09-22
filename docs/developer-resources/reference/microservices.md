@@ -70,6 +70,50 @@ Key: `everlife-skill-svc`
         pkg: <string> - Package name.
     }
 
+# SSB Service
+
+Key: `everlife-ssb-svc`
+
+### Post a New Message
+
+```
+    {
+      type: 'post-msg',
+      msg: {
+          "type": "post",
+          "text": "This is [@user 1](@c73TF9/hPADleb7QXkUXgA9lj8/TqRUuZ1Uw7txYBWM=.ed25519)",
+          "mentions": [
+             {
+               "link": "@c73TF9/hPADleb7QXkUXgA9lj8/TqRUuZ1Uw7txYBWM=.ed25519",
+               "name": "user 1"
+             }
+           ]
+        },
+    }
+```
+
+
+### Post a Private Message
+
+```
+    {
+      type: "pvt-post-msg",
+      msg: {
+        "type": "post"
+        "text": "This is [@user 1](@c73TF9/hPADleb7QXkUXgA9lj8/TqRUuZ1Uw7txYBWM=.ed25519)",
+        "mentions": [
+          {
+            "link": "@c73TF9/hPADleb7QXkUXgA9lj8/TqRUuZ1Uw7txYBWM=.ed25519",
+            "name": "user 1"
+          }
+        ],
+        "recps": [
+          "@c73TF9/hPADleb7QXkUXgA9lj8/TqRUuZ1Uw7txYBWM=.ed25519"
+        ]
+      }
+    }
+```
+
 # Everlife AI Service
 
 Key: `everlife-ai-svc`
