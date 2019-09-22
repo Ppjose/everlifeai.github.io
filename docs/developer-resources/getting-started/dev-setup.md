@@ -17,40 +17,28 @@ Create a folder where you want to keep all the files related to Avatar developme
 
 Lets call this top level directory `everlife-dev`.
 
-In this directory you unpack the Avatar Node files, into the `elife` directory. You can find packaged versions of Avatar Node releases in the [repository `everlife-node-releases`](https://github.com/everlifeai/everlife-node-releases).
-
-**Attention:** Before staring the avatar you need to set the environment variable `ELIFE_HOME` to point to the full path of the `everlife-dev`folder. Make sure this is always set when you are starting you development instance, since it controls where the `data` and `skills` folders are created/expected.
+In this directory you unpack the Avatar Node files, into the `elife` directory. These should be provided to you in a `-dev.tar.gz` pack.
 
 After setting up your `everlife-dev` directory and unpacking the Avatar into `everlife-dev/elife`
 
     cd elife
     
-And then start the Avatar for the first time to initialize the bundled skills etc., choosing the start script depending on which platform you are on:
+And then start the Avatar:
 
-    # MacOS
-    export ELIFE_HOME=/Users/myuser/myprojects/everlife-dev
-    ./run-mac.sh
+    npm start
 
-,
 
-    # Linux
-    export ELIFE_HOME=/Users/myuser/myprojects/everlife-dev
-    ./run-linux.sh
-    
-or
-
-    # Windows
-    set ELIFE_HOME=C:\Users\myuser\myprojects\everlife-dev
-    ./run-win.cmd
-    
-
-After going through any additional steps you are prompted to perform the resulting directory structure will look like this (as of Avatar Node version 0.8).
-
-    everlife-dev
-    ├── data        # Created when the Node is started the first time
+    HOME/everlifeai/0/ # Created when the Node is started the first time
+    ├── data
     │   ├── __ssb
     │   ├── level.db
     │   └── stellar
+    ├── logs
+    ├── skills
+        └── # Any skills you install or develop will be placed here
+
+
+    everlife-dev
     ├── elife       # Unpackaged from the Node release 
     │   ├── arch
     │   ├── helpers
@@ -73,7 +61,6 @@ After going through any additional steps you are prompted to perform the resulti
     │       │       └── # Bundled skills are installed here
     │       └── elife-stellar
     └── skills      # Created when the Node is started the first time
-        └── # Any skills you install or develop will be placed here
      
 If you experience any problems please have a look at the sections [Developer FAQ](dev-faq.md) and [Support and Troubleshooting](dev-support.md) in this Wiki.
 
